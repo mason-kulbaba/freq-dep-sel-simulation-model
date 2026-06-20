@@ -1,0 +1,18 @@
+{
+  "permission": {
+    "executeCode": {
+      "*": "allow"
+    },
+    "edit": {
+      "*.md": "allow",
+      "*.R": "allow",
+      "*": "allow"
+    },
+    "external_directory": {
+      "C:/Users/mason/Dropbox/git/NFDS Phenology Simulation/*": "allow"
+    },
+    "bash": {
+      "mkdir *": "allow"
+    }
+  }
+}

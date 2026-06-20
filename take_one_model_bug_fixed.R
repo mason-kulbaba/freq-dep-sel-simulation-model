@@ -1,6 +1,6 @@
 # Mason flowering and switchover time 
 # pheno is a function of genotype  and (if you want) random noise
-# fitnes is a function of your phenoype, and the phenotypes of others'
+# fitness is a function of your phenoype, and the phenotypes of others'
 
 
 # Take 1. No mutations. One season. Values from runif
@@ -42,4 +42,4 @@ Sim1 <- function(n, season, gens){
   
 }
 
-#Sim1(n=100, season=10, gens = 50)
+Sim1(n=100, season=10, gens = 50)
